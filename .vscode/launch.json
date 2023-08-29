@@ -12,13 +12,6 @@
             "projectName": "leetcode_1cbfc1ee"
         },
         {
-            "type": "java",
-            "name": "answer",
-            "request": "launch",
-            "mainClass": "answer",
-            "projectName": "leetcode_1cbfc1ee"
-        },
-        {
             "name": "Launch Package",
             "type": "go",
             "request": "launch",
