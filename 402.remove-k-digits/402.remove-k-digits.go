@@ -1,3 +1,7 @@
+package main
+
+import "strings"
+
 /*
  * @lc app=leetcode.cn id=402 lang=golang
  * @lcpr version=21913

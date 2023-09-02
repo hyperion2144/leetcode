@@ -1,3 +1,5 @@
+package main
+
 /*
  * @lc app=leetcode.cn id=1654 lang=golang
  * @lcpr version=21913

@@ -1,3 +1,7 @@
+package main
+
+import "sort"
+
 /*
  * @lc app=leetcode.cn id=15 lang=golang
  * @lcpr version=21913
