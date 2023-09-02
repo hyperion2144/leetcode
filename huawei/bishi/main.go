@@ -33,43 +33,31 @@ func main() {
 		return
 	}
 
-	// 使用长度为3的数组的列表存储不同任务类型的种类数量、该种类的任务数量和当前冷却情况
-	tasks := make([][3]int, 0)
+	// 使用数组存储不同任务类型的任务数量
+	tasks := make([]int, 0)
+	sum := 0
 	for _, taskNum := range taskNums {
-		tasks = append(tasks, [3]int{len(taskNums), taskNum, -n - 1})
+		tasks = append(tasks, taskNum)
+		sum += taskNum
 	}
 
 	// 对任务数量进行排序,数量多的排在前面
 	sort.Slice(tasks, func(i, j int) bool {
-		return tasks[i][1] > tasks[j][1]
+		return tasks[i] > tasks[j]
 	})
 
-	var count int
-	// 循环执行任务
-	for i, k := 0, 0; len(tasks) > 0; k++ {
-		count++
-		task := tasks[i]
-
-		if n+1-(k-task[2]) > 0 {
-			continue
-		}
-
-		tasks[i][1]--
-		tasks[i][2] = k
-		tasks[i][0] = len(tasks)
-
-		if tasks[i][1] == 0 {
-			tasks = append(tasks[:i], tasks[i+1:]...)
-			if len(tasks) > 0 {
-				i = i % len(tasks)
-			}
+	// 计算最大任务数量
+	maxCount := tasks[0]
+	equalCount := 0
+	for i := 1; i < len(tasks); i++ {
+		if tasks[i] == maxCount {
+			equalCount++
 		} else {
-			i = (i + 1) % len(tasks)
+			break
 		}
-
 	}
 
-	fmt.Println(count)
+	fmt.Println(max((maxCount-1)*(n+1)+1+equalCount, sum))
 }
 
 func max(a, b int) int {
