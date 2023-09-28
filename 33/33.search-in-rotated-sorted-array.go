@@ -1,3 +1,5 @@
+package main
+
 /*
  * @lc app=leetcode.cn id=33 lang=golang
  * @lcpr version=21913
@@ -90,7 +92,6 @@ func search(nums []int, target int) int {
 }
 
 func seartIns(nums []int, x int) int {
-
 	l, r := 0, len(nums)-1
 	for l < r {
 		m := (l + r) >> 1
@@ -128,4 +129,3 @@ func seartIns(nums []int, x int) int {
 // @lcpr case=end
 
 */
-
