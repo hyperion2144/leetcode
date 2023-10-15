@@ -78,7 +78,7 @@ import "sort"
 
 // @lc code=start
 func eliminateMaximum(dist []int, speed []int) int {
-	n := len(dist);
+	var n = len(dist)
 	arrivalTimes := make([]int, n)
 	for i := 0; i < n; i++ {
 		arrivalTimes[i] = (dist[i]-1)/speed[i] + 1
@@ -91,9 +91,8 @@ func eliminateMaximum(dist []int, speed []int) int {
 	}
 	return n
 }
+
 // @lc code=end
-
-
 
 /*
 // @lcpr case=start
@@ -108,5 +107,4 @@ func eliminateMaximum(dist []int, speed []int) int {
 // [3,2,4]\n[5,3,2]\n
 // @lcpr case=end
 
- */
-
+*/
