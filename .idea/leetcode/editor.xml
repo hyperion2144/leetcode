@@ -3,25 +3,14 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
-        <entry key="/var/folders/wv/rwbk07y55nx9xcyyrf71c4m00000gn/T/leetcode/editor/cn/[136]只出现一次的数字.go">
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[260]只出现一次的数字 III.go">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="/var/folders/wv/rwbk07y55nx9xcyyrf71c4m00000gn/T/leetcode/editor/cn/doc/content/[136]只出现一次的数字.md" />
-              <option name="frontendQuestionId" value="leetcode.cn136" />
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[260]只出现一次的数字 III.md" />
+              <option name="frontendQuestionId" value="leetcode.cn260" />
               <option name="host" value="leetcode.cn" />
-              <option name="path" value="/var/folders/wv/rwbk07y55nx9xcyyrf71c4m00000gn/T/leetcode/editor/cn/[136]只出现一次的数字.go" />
-              <option name="titleSlug" value="single-number" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="/var/folders/wv/rwbk07y55nx9xcyyrf71c4m00000gn/T/leetcode/editor/cn/[137]只出现一次的数字 II.go">
-          <value>
-            <LeetcodeEditor>
-              <option name="contentPath" value="/var/folders/wv/rwbk07y55nx9xcyyrf71c4m00000gn/T/leetcode/editor/cn/doc/content/[137]只出现一次的数字 II.md" />
-              <option name="frontendQuestionId" value="leetcode.cn137" />
-              <option name="host" value="leetcode.cn" />
-              <option name="path" value="/var/folders/wv/rwbk07y55nx9xcyyrf71c4m00000gn/T/leetcode/editor/cn/[137]只出现一次的数字 II.go" />
-              <option name="titleSlug" value="single-number-ii" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[260]只出现一次的数字 III.go" />
+              <option name="titleSlug" value="single-number-iii" />
             </LeetcodeEditor>
           </value>
         </entry>
